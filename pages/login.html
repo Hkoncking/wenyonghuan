@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册登录</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" href="../css/normal.css">
+</head>
+<body>
+    <!-- 登录注册页头部 -->
+    <div class="header">
+        <div class="logo center">
+            <a class="logo_bg" href="https://www.winxuan.com/" ><img src="../img/logo.png" alt=""></a>
+        </div>
+    </div>
+    <!-- 登录注册页中间 -->
+    <div class="wrapper">
+        <div class="center">
+            <!-- 表单盒子 -->
+            <div class="login_box">
+                <!-- 切换 -->
+                <div class="tabs">
+                    <span>登录</span>
+                    <span>注册</span>
+                </div>
+                <!-- 切换登录 -->
+               <div class="tabs_login">
+                   <span>*用户名或密码错误</span>
+                    <!-- 输入用户密码 -->
+                    <div class="signin">
+                        <div class="wra_form">
+                            <div class="login">
+                                <form action="1" id="login">
+                                    <div class="user">
+                                        <i class="user_icon">&#xe725;</i>
+                                        <input type="text" placeholder="账号" name="username">
+                                        <span>账号不能为空</span>
+                                    </div>
+                                    <div class="password">
+                                        <i class="user_icon">&#xe63a;</i>
+                                        <input type="password" placeholder="密码" name="password">
+                                        <span>密码不能为空</span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- 记住密码 -->
+                        <div class="login_center">
+                            <input type="checkbox">记住密码
+                            <a href="">忘记密码?</a>
+                        </div>
+                        <!-- 登录按钮 -->
+                        <button class="disabled">登 录</button>
+                    </div>                   
+                </div>
+                <!-- 切换注册 -->
+                <div class="tabs_register">
+                    <span>*用户名或密码格式错误</span>
+                    <!-- 输入用户密码 -->
+                    <div class="signup">
+                        <div class="wra_form">
+                            <div class="login">
+                                <form id="register">
+                                    <div class="re_user">
+                                        <i class="user_icon">&#xe725;</i>
+                                        <input type="text" placeholder="请设置用户名" name="nikename">
+                                    </div>
+                                    <div class="re_user">
+                                        <i class="user_icon">&#xe725;</i>
+                                        <input type="text" placeholder="设置账号" name="username">
+                                        <span>账号不能为空</span>
+                                    </div>
+                                    <div class="re_password">
+                                        <i class="user_icon">&#xe63a;</i>
+                                        <input type="text" placeholder="设置密码" name="password">
+                                        <span>密码不能为空</span>
+                                    </div>
+                                    <div class="password_repeat">
+                                        <i class="user_icon">&#xe63a;</i>
+                                        <input type="text" placeholder="请再次确认密码" name="repassword">
+                                        <span>两次密码不一致</span>
+                                    </div>
+                                </form>
+                                <!-- 注册按钮 -->
+                                <button class="re_btn">注 册</button>
+
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+                <!-- 快捷登录 -->
+                <div class="login_footer">
+                    <p>快捷登录</p>
+                </div>
+                <div class="login_last">
+                    <a href=""><i class="login_other">&#xe619;</i></a>
+                    <a href=""><i class="login_other">&#xe657;</i></a>
+                    <a href=""><i class="login_other">&#xe606;</i></a>
+                    <a href=""><i class="login_other">&#xe63b;</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 登录注册页脚 -->
+    <div class="footer">
+        <div class="footer_top center">
+            <ul>
+                <li>
+                    <i class="footer_icon">&#xf02ac;</i>
+                    <div>正品保障<br>假一赔五</div>
+                </li>
+                <li>
+                    <i class="footer_icon">&#xf0264;</i>
+                    <div>一网打尽<br>更多优惠</div>
+                </li>
+                <li>
+                    <i class="footer_icon">&#xe60d;</i>
+                    <div>800城市<br>北上广深次日达</div>
+                </li>
+                <li>
+                    <i class="footer_icon">&#xf007c;</i>
+                    <div>电子发票<br>报销无忧</div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_bottom center">
+            <p>
+                <a href="#">关于文轩</a>
+                |
+                <a href="#">关于文轩</a>
+                |
+                <a href="#">关于文轩</a>
+                |
+                <a href="#">关于文轩</a>
+            </p>
+            <p class="footer_copy">川公网安备 51010602000457号 丨 出版物经营许可证 丨 蜀ICP备11014037号<br>
+                Copyright(C) 文轩网2000-2020 版权所有 丨 客服热线：400-072-0808
+            </p>
+        </div>
+    </div>
+
+    <script src="../assets/jquery/jquery.min.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>
